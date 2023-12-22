@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url(./awesome-hd-fruit-image.jpg.crdownload);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            height: 80%;
+            width: 50%;
+            border-radius: 50%;
+            background: conic-gradient(red 0% 25%, blue 25% 50%, yellow 50% 75%, green 75% 100% );
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            text-align: left;
+            box-shadow: 10px 0 50px 0px;
+            
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .data1 {
+          position: absolute;
+          left: 35%;
+          top: 30%
+        }
+
+        .data2 {
+          position: absolute;
+          right: 35%;
+          top: 30%
+        }
+
+        .data3 {
+          position: absolute;
+          left: 35%;
+          bottom: 20%
+        }
+
+        .data4 {
+          position: absolute;
+          right: 35%;
+          bottom: 20%; 
+        }
+
+      @media(max-width: 680px) {
+        .main {
+            width: 100%;
+        }
+
+        .data1 {
+          position: absolute;
+          left: 60%;
+          top: 30%
+        }
+
+        .data2 {
+          position: absolute;
+          right: 60%;
+          top: 30%
+        }
+
+        .data3 {
+          position: absolute;
+          left: 60%;
+          bottom: 20%
+        }
+
+        .data4 {
+          position: absolute;
+          right: 60%;
+          bottom: 20%; 
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Fruit Data Chart</h1>
+    <div class="main">
+        <div>
+      <h2 class="data1">Orange 25%</h2>
+    <div>
+      <h2 class="data2">Mango 25%</h2>
+      <h2 class="data3">Banana 25%</h2>
+      <h2 class="data4">Apple 25%</h2>
+    </div>
+</body>
+</html>
